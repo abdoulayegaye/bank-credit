@@ -11,7 +11,8 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class Client {
+@Table(name = "clients")
+public class ClientEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -25,5 +26,5 @@ public class Client {
     @Column(length = 250, nullable = false)
     private String address;
     @OneToMany(mappedBy = "client")
-    private List<Credit> credits;
+    private List<CreditEntity> credits;
 }

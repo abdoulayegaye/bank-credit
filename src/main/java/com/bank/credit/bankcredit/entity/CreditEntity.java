@@ -10,12 +10,13 @@ import javax.persistence.*;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Credit {
+@Table(name = "credits")
+public class CreditEntity {
     @Id
     private String creditNumber;
     private double amount;
     private int duration;
 
     @ManyToOne
-    private Client client;
+    private ClientEntity client;
 }
