@@ -39,11 +39,11 @@ public class ClientService {
 
     @Transactional
     public Client createClient(Client client) {
-        creditRepository.findByCreditNumberIgnoreCase(client.getCredit().getCreditNumber()).orElseThrow(() ->
-                new EntityNotFoundException(messageSource.getMessage("client.notfound",
-                        new Object[]{client.getCredit().getCreditNumber()},
-                        Locale.getDefault())));
-        client.setId(null);
+        clientRepository.findById(client.getId())
+                .ifPresent(entity -> {
+                    throw new RequestException(messageSource.getMessage("client.exists", new Object[]{client.getId()},
+                            Locale.getDefault()), HttpStatus.CONFLICT);
+                });
         return clientMapper.toClient(clientRepository.save(clientMapper.fromClient(client)));
     }
 
@@ -51,10 +51,6 @@ public class ClientService {
     public Client updateClient(Long id, Client client){
         return clientRepository.findById(id)
                 .map(entity -> {
-                    creditRepository.findByCreditNumberIgnoreCase(client.getCredit().getCreditNumber()).orElseThrow(() ->
-                            new EntityNotFoundException(messageSource.getMessage("client.notfound",
-                                    new Object[]{client.getCredit().getCreditNumber()},
-                                    Locale.getDefault())));
                     client.setId(id);
                     return clientMapper.toClient(clientRepository.save(clientMapper.fromClient(client)));
                 }).orElseThrow(() -> new EntityNotFoundException(messageSource.getMessage("client.notfound",
@@ -67,7 +63,7 @@ public class ClientService {
         try {
             clientRepository.deleteById(id);
         } catch (Exception e) {
-            throw new RequestException(messageSource.getMessage("person.errordeletion", new Object[]{id},
+            throw new RequestException(messageSource.getMessage("client.errordeletion", new Object[]{id},
                     Locale.getDefault()),
                     HttpStatus.CONFLICT);
         }

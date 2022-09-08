@@ -1,0 +1,40 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    password:
+    url: jdbc:mysql://localhost:3306/bank_credit_db?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+  application:
+    name: bank-credit
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,wavefront
+  info:
+    env:
+      enabled: true
+
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+info:
+  application:
+    name: bank-credit
+    version: '@project.version@'
+
+wavefront:
+  application:
+    name: bank-credit
+
+logging:
+  file:
+    name: C:\Users\lenovo yoga\Desktop\JAVA\JavaProjects\bank-credit\logs\myLog.log
+  level:
+    org:
+      springframework:
+        web: DEBUG

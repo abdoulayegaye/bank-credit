@@ -4,6 +4,7 @@ import com.bank.credit.bankcredit.domain.Credit;
 import com.bank.credit.bankcredit.exception.EntityNotFoundException;
 import com.bank.credit.bankcredit.exception.RequestException;
 import com.bank.credit.bankcredit.mapping.CreditMapper;
+import com.bank.credit.bankcredit.repository.ClientRepository;
 import com.bank.credit.bankcredit.repository.CreditRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.context.MessageSource;
@@ -21,6 +22,7 @@ import java.util.stream.StreamSupport;
 public class CreditService {
 
     CreditRepository creditRepository;
+    ClientRepository clientRepository;
     CreditMapper creditMapper;
     MessageSource messageSource;
 
@@ -40,6 +42,13 @@ public class CreditService {
 
     @Transactional
     public Credit createCredit(Credit credit) {
+        clientRepository.findById(credit.getClient().getId()).orElseThrow(() ->
+                new EntityNotFoundException(
+                        messageSource.getMessage("client.notfound",
+                                new Object[]{credit.getClient().getId()},
+                                Locale.getDefault())
+                )
+        );
         creditRepository.findByCreditNumberIgnoreCase(credit.getCreditNumber())
                 .ifPresent(entity -> {
                     throw new RequestException(messageSource.getMessage("credit.exists", new Object[]{credit.getCreditNumber()},

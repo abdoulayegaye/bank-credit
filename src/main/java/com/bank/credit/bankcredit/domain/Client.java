@@ -26,6 +26,4 @@ public class Client implements Serializable {
     private String city;
     @NotNull
     private String address;
-    @NotNull
-    private CreditEntity credit;
 }
