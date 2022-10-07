@@ -30,7 +30,7 @@ public class CreditController {
 
     @PostMapping
     @ResponseStatus(code = HttpStatus.CREATED)
-    @IsAdmin
+    //@IsAdmin
     public ResponseEntity<Credit> createCredit(@Valid @RequestBody Credit credit) {
         return new ResponseEntity<>(creditService.createCredit(credit), HttpStatus.CREATED);
     }

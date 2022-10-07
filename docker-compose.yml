@@ -10,7 +10,7 @@ services:
       MYSQL_USER: user
       MYSQL_PASSWORD: user
     ports:
-      - 3306:3306
+      - 3307:3306
     volumes:
       - mysql_data:/var/lib/mysql
     healthcheck:
@@ -34,7 +34,7 @@ services:
     image: app-bank-credit
     container_name: container-bank-credit
     ports:
-      - 8081:8081
+      - 8082:8081
     restart: unless-stopped
     build:
       context: ./

@@ -1,0 +1,2130 @@
+{
+  "instant" : {
+    "epochSecond" : 1663361031,
+    "nanoOfSecond" : 452261800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "com.bank.credit.bankcredit.BankCreditApplication",
+  "message" : "Starting BankCreditApplication using Java 11.0.14.1 on DESKTOP-E76Q78V with PID 111844 (C:\\Users\\lenovo yoga\\Desktop\\JAVA\\JavaProjects\\bank-credit\\target\\classes started by lenovo yoga in C:\\Users\\lenovo yoga\\Desktop\\JAVA\\JavaProjects\\bank-credit)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361031,
+    "nanoOfSecond" : 427573900
+  },
+  "thread" : "background-preinit",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.validator.internal.util.Version",
+  "message" : "HV000001: Hibernate Validator 6.2.4.Final",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.validator.internal.util.logging.Log_$logger",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361031,
+    "nanoOfSecond" : 520755500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "com.bank.credit.bankcredit.BankCreditApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361031,
+    "nanoOfSecond" : 555805900
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361031,
+    "nanoOfSecond" : 556903800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361032,
+    "nanoOfSecond" : 49851000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361032,
+    "nanoOfSecond" : 90513800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361032,
+    "nanoOfSecond" : 626486700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8081 (http)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361032,
+    "nanoOfSecond" : 638013200
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8081\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361032,
+    "nanoOfSecond" : 638013200
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361032,
+    "nanoOfSecond" : 638013200
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.65]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361032,
+    "nanoOfSecond" : 703472900
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361032,
+    "nanoOfSecond" : 703472900
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 1147 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361032,
+    "nanoOfSecond" : 878382300
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.EntityManagerMessageLogger_$logger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361032,
+    "nanoOfSecond" : 935270900
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 5.6.10.Final",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361033,
+    "nanoOfSecond" : 39594000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.annotations.common.Version",
+  "message" : "HCANN000001: Hibernate Commons Annotations {5.1.2.Final}",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.annotations.common.util.impl.Log_$logger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361033,
+    "nanoOfSecond" : 119657800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361033,
+    "nanoOfSecond" : 237764300
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361033,
+    "nanoOfSecond" : 251607400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.dialect.Dialect",
+  "message" : "HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361033,
+    "nanoOfSecond" : 828237700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361033,
+    "nanoOfSecond" : 828832700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361034,
+    "nanoOfSecond" : 176076600
+  },
+  "thread" : "restartedMain",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361034,
+    "nanoOfSecond" : 461765500
+  },
+  "thread" : "restartedMain",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter",
+  "message" : "ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361034,
+    "nanoOfSecond" : 525865400
+  },
+  "thread" : "restartedMain",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping",
+  "message" : "12 mappings in 'requestMappingHandlerMapping'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361034,
+    "nanoOfSecond" : 552686500
+  },
+  "thread" : "restartedMain",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.handler.SimpleUrlHandlerMapping",
+  "message" : "Patterns [/webjars/**, /**] in 'resourceHandlerMapping'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361034,
+    "nanoOfSecond" : 569754100
+  },
+  "thread" : "restartedMain",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver",
+  "message" : "ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361034,
+    "nanoOfSecond" : 850692100
+  },
+  "thread" : "restartedMain",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "Unable to start LiveReload server",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361034,
+    "nanoOfSecond" : 861934400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8081\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361034,
+    "nanoOfSecond" : 878147400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8081 (http) with context path ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361034,
+    "nanoOfSecond" : 888403300
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "com.bank.credit.bankcredit.BankCreditApplication",
+  "message" : "Started BankCreditApplication in 3.76 seconds (JVM running for 5.094)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361112,
+    "nanoOfSecond" : 729222600
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361112,
+    "nanoOfSecond" : 733419400
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361112,
+    "nanoOfSecond" : 745407700
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 20,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361117,
+    "nanoOfSecond" : 254805800
+  },
+  "thread" : "background-preinit",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.validator.internal.util.Version",
+  "message" : "HV000001: Hibernate Validator 6.2.4.Final",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.validator.internal.util.logging.Log_$logger",
+  "threadId" : 19,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361117,
+    "nanoOfSecond" : 316833000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "com.bank.credit.bankcredit.BankCreditApplication",
+  "message" : "Starting BankCreditApplication using Java 11.0.14.1 on DESKTOP-E76Q78V with PID 81516 (C:\\Users\\lenovo yoga\\Desktop\\JAVA\\JavaProjects\\bank-credit\\target\\classes started by lenovo yoga in C:\\Users\\lenovo yoga\\Desktop\\JAVA\\JavaProjects\\bank-credit)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361117,
+    "nanoOfSecond" : 433173200
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "com.bank.credit.bankcredit.BankCreditApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361117,
+    "nanoOfSecond" : 502176800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361117,
+    "nanoOfSecond" : 502176800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361118,
+    "nanoOfSecond" : 434076500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361118,
+    "nanoOfSecond" : 490133200
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361119,
+    "nanoOfSecond" : 237118700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8081 (http)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361119,
+    "nanoOfSecond" : 245136100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8081\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361119,
+    "nanoOfSecond" : 245136100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361119,
+    "nanoOfSecond" : 245136100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.65]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361119,
+    "nanoOfSecond" : 399217300
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361119,
+    "nanoOfSecond" : 400220100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 1894 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361119,
+    "nanoOfSecond" : 669581000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.EntityManagerMessageLogger_$logger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361119,
+    "nanoOfSecond" : 722893400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 5.6.10.Final",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361119,
+    "nanoOfSecond" : 890666800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.annotations.common.Version",
+  "message" : "HCANN000001: Hibernate Commons Annotations {5.1.2.Final}",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.annotations.common.util.impl.Log_$logger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361120,
+    "nanoOfSecond" : 3519500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361120,
+    "nanoOfSecond" : 206239600
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361120,
+    "nanoOfSecond" : 222627400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.dialect.Dialect",
+  "message" : "HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361120,
+    "nanoOfSecond" : 847674900
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361120,
+    "nanoOfSecond" : 851206000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361121,
+    "nanoOfSecond" : 293146900
+  },
+  "thread" : "restartedMain",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361121,
+    "nanoOfSecond" : 620211700
+  },
+  "thread" : "restartedMain",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter",
+  "message" : "ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361121,
+    "nanoOfSecond" : 687601300
+  },
+  "thread" : "restartedMain",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping",
+  "message" : "12 mappings in 'requestMappingHandlerMapping'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361121,
+    "nanoOfSecond" : 723806000
+  },
+  "thread" : "restartedMain",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.handler.SimpleUrlHandlerMapping",
+  "message" : "Patterns [/webjars/**, /**] in 'resourceHandlerMapping'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361121,
+    "nanoOfSecond" : 732061100
+  },
+  "thread" : "restartedMain",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver",
+  "message" : "ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361122,
+    "nanoOfSecond" : 73994100
+  },
+  "thread" : "restartedMain",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "Unable to start LiveReload server",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361122,
+    "nanoOfSecond" : 91478300
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8081\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361122,
+    "nanoOfSecond" : 120499800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8081 (http) with context path ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361122,
+    "nanoOfSecond" : 129662500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "com.bank.credit.bankcredit.BankCreditApplication",
+  "message" : "Started BankCreditApplication in 5.389 seconds (JVM running for 6.986)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 18,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361144,
+    "nanoOfSecond" : 196239300
+  },
+  "thread" : "http-nio-8081-exec-3",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 43,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361144,
+    "nanoOfSecond" : 196239300
+  },
+  "thread" : "http-nio-8081-exec-3",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 43,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361144,
+    "nanoOfSecond" : 196239300
+  },
+  "thread" : "http-nio-8081-exec-3",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Detected StandardServletMultipartResolver",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 43,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361144,
+    "nanoOfSecond" : 196239300
+  },
+  "thread" : "http-nio-8081-exec-3",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Detected AcceptHeaderLocaleResolver",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 43,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361144,
+    "nanoOfSecond" : 196239300
+  },
+  "thread" : "http-nio-8081-exec-3",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Detected FixedThemeResolver",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 43,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361144,
+    "nanoOfSecond" : 196239300
+  },
+  "thread" : "http-nio-8081-exec-3",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5c9594ca",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 43,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361144,
+    "nanoOfSecond" : 196239300
+  },
+  "thread" : "http-nio-8081-exec-3",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Detected org.springframework.web.servlet.support.SessionFlashMapManager@2753fb2f",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 43,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361144,
+    "nanoOfSecond" : 202919300
+  },
+  "thread" : "http-nio-8081-exec-3",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 43,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361144,
+    "nanoOfSecond" : 202919300
+  },
+  "thread" : "http-nio-8081-exec-3",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 6 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 43,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361144,
+    "nanoOfSecond" : 218626300
+  },
+  "thread" : "http-nio-8081-exec-3",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "GET \"/clients\", parameters={}",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 43,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361144,
+    "nanoOfSecond" : 228227600
+  },
+  "thread" : "http-nio-8081-exec-3",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping",
+  "message" : "Mapped to com.bank.credit.bankcredit.controller.ClientController#getClients(Pageable)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 43,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361144,
+    "nanoOfSecond" : 570333300
+  },
+  "thread" : "http-nio-8081-exec-3",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor",
+  "message" : "Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 43,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361144,
+    "nanoOfSecond" : 575460300
+  },
+  "thread" : "http-nio-8081-exec-3",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor",
+  "message" : "Writing [Page 1 of 1 containing com.bank.credit.bankcredit.domain.Client instances]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 43,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663361144,
+    "nanoOfSecond" : 633497800
+  },
+  "thread" : "http-nio-8081-exec-3",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed 200 OK",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 43,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663427660,
+    "nanoOfSecond" : 530225800
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17h53m33s878ms243µs100ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 34,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663428044,
+    "nanoOfSecond" : 793648000
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m54s138ms626µs900ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 34,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663954365,
+    "nanoOfSecond" : 411484900
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6d1h51m33s999ms389µs300ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 34,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957559,
+    "nanoOfSecond" : 287431400
+  },
+  "thread" : "background-preinit",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.validator.internal.util.Version",
+  "message" : "HV000001: Hibernate Validator 6.2.4.Final",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.validator.internal.util.logging.Log_$logger",
+  "threadId" : 23,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957559,
+    "nanoOfSecond" : 436367100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "com.bank.credit.bankcredit.BankCreditApplication",
+  "message" : "Starting BankCreditApplication using Java 11.0.14.1 on DESKTOP-E76Q78V with PID 23548 (C:\\Users\\lenovo yoga\\Desktop\\JAVA\\JavaProjects\\bank-credit\\target\\classes started by lenovo yoga in C:\\Users\\lenovo yoga\\Desktop\\JAVA\\JavaProjects\\bank-credit)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957559,
+    "nanoOfSecond" : 591488500
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "com.bank.credit.bankcredit.BankCreditApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957559,
+    "nanoOfSecond" : 678545400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957559,
+    "nanoOfSecond" : 679045900
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957561,
+    "nanoOfSecond" : 146654800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957561,
+    "nanoOfSecond" : 203090200
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957562,
+    "nanoOfSecond" : 177078000
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8081 (http)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957562,
+    "nanoOfSecond" : 190228100
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8081\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957562,
+    "nanoOfSecond" : 190727300
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957562,
+    "nanoOfSecond" : 191745800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.65]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957562,
+    "nanoOfSecond" : 312979600
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957562,
+    "nanoOfSecond" : 313980200
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 2633 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957562,
+    "nanoOfSecond" : 595857700
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.EntityManagerMessageLogger_$logger",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957562,
+    "nanoOfSecond" : 664547400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 5.6.10.Final",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957562,
+    "nanoOfSecond" : 809825900
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.annotations.common.Version",
+  "message" : "HCANN000001: Hibernate Commons Annotations {5.1.2.Final}",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.annotations.common.util.impl.Log_$logger",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957562,
+    "nanoOfSecond" : 930015800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957563,
+    "nanoOfSecond" : 112863600
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957563,
+    "nanoOfSecond" : 139644800
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.dialect.Dialect",
+  "message" : "HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957563,
+    "nanoOfSecond" : 883649200
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957563,
+    "nanoOfSecond" : 890936900
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957564,
+    "nanoOfSecond" : 343007700
+  },
+  "thread" : "restartedMain",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957564,
+    "nanoOfSecond" : 711949000
+  },
+  "thread" : "restartedMain",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter",
+  "message" : "ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957564,
+    "nanoOfSecond" : 801314200
+  },
+  "thread" : "restartedMain",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping",
+  "message" : "12 mappings in 'requestMappingHandlerMapping'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957564,
+    "nanoOfSecond" : 838513900
+  },
+  "thread" : "restartedMain",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.handler.SimpleUrlHandlerMapping",
+  "message" : "Patterns [/webjars/**, /**] in 'resourceHandlerMapping'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957564,
+    "nanoOfSecond" : 852536300
+  },
+  "thread" : "restartedMain",
+  "level" : "DEBUG",
+  "loggerName" : "org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver",
+  "message" : "ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957565,
+    "nanoOfSecond" : 180115300
+  },
+  "thread" : "restartedMain",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "Unable to start LiveReload server",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957565,
+    "nanoOfSecond" : 197283900
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8081\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957565,
+    "nanoOfSecond" : 212418200
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8081 (http) with context path ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1663957565,
+    "nanoOfSecond" : 222416400
+  },
+  "thread" : "restartedMain",
+  "level" : "INFO",
+  "loggerName" : "com.bank.credit.bankcredit.BankCreditApplication",
+  "message" : "Started BankCreditApplication in 6.372 seconds (JVM running for 8.844)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 21,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1664009805,
+    "nanoOfSecond" : 695496100
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11h41m44s148ms636µs100ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1664092581,
+    "nanoOfSecond" : 142602400
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20h39m3s626ms173µs800ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1664117572,
+    "nanoOfSecond" : 519054400
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h56m35s789ms373µs800ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1664145186,
+    "nanoOfSecond" : 123661100
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h41m17s339ms385µs800ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1664220778,
+    "nanoOfSecond" : 133063300
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20h53m22s208ms423µs400ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1664306902,
+    "nanoOfSecond" : 555334300
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21h39m57s154ms504µs400ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1664313981,
+    "nanoOfSecond" : 397473600
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m57s221ms606µs400ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1664319867,
+    "nanoOfSecond" : 488724700
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h31m9s933ms563µs600ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1664394200,
+    "nanoOfSecond" : 297433200
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19h30m25s855ms436µs800ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1664456898,
+    "nanoOfSecond" : 652858200
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15h15m29s238ms742µs500ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1664464078,
+    "nanoOfSecond" : 164759300
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h45m13s456ms366µs300ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1664469890,
+    "nanoOfSecond" : 513916000
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h26m56s149ms118µs300ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1664481506,
+    "nanoOfSecond" : 45818700
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m2s623ms780µs299ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1664560237,
+    "nanoOfSecond" : 408042600
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20h26m43s918ms866µs300ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1664635289,
+    "nanoOfSecond" : 244782600
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16h46m20s67ms947µs800ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1664740215,
+    "nanoOfSecond" : 306710800
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d5h7m48s761ms486µs100ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1664796497,
+    "nanoOfSecond" : 382620800
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15h25m5s360ms181µs700ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1664797033,
+    "nanoOfSecond" : 488371500
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m55s976ms453µs700ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1664824707,
+    "nanoOfSecond" : 923547100
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h19m18s290ms548µs800ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1664990151,
+    "nanoOfSecond" : 414731500
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d20h10m26s233ms96µs500ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1665015482,
+    "nanoOfSecond" : 252522800
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h59m13s387ms821µs600ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1665073008,
+    "nanoOfSecond" : 448807500
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14h59m49s67ms292µs900ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1665073509,
+    "nanoOfSecond" : 782702300
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m18s953ms628µs900ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1665076099,
+    "nanoOfSecond" : 565767300
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m13s652ms391µs700ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1665082956,
+    "nanoOfSecond" : 191517500
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h52m50s671ms202µs400ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1665123582,
+    "nanoOfSecond" : 230894800
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h27m34s640ms721µs200ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1665139320,
+    "nanoOfSecond" : 456065600
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h22m22s216ms179µs200ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1665143307,
+    "nanoOfSecond" : 672337800
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m317ms694µs700ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1665167486,
+    "nanoOfSecond" : 588883600
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h41m32s666ms327µs700ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 36,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1665174830,
+    "nanoOfSecond" : 47687200
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 24,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1665174830,
+    "nanoOfSecond" : 125799800
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 24,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}
+{
+  "instant" : {
+    "epochSecond" : 1665174830,
+    "nanoOfSecond" : 149755800
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 24,
+  "threadPriority" : 5,
+  "service" : "bank-credit"
+}

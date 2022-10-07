@@ -1,0 +1,174 @@
+2022-10-07 20:33:58.239  INFO 58140 --- [restartedMain] c.b.c.bankcredit.BankCreditApplication   : Starting BankCreditApplication using Java 11.0.14.1 on DESKTOP-E76Q78V with PID 58140 (C:\Users\lenovo yoga\Desktop\JAVA\JavaProjects\bank-credit\target\classes started by lenovo yoga in C:\Users\lenovo yoga\Desktop\JAVA\JavaProjects\bank-credit)
+2022-10-07 20:33:58.240  INFO 58140 --- [restartedMain] c.b.c.bankcredit.BankCreditApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-10-07 20:33:58.275  INFO 58140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-07 20:33:58.276  INFO 58140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-07 20:33:58.877  INFO 58140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-07 20:33:58.914  INFO 58140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 2 JPA repository interfaces.
+2022-10-07 20:33:59.470  INFO 58140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-07 20:33:59.476  INFO 58140 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-07 20:33:59.477  INFO 58140 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-07 20:33:59.525  INFO 58140 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-07 20:33:59.525  INFO 58140 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1249 ms
+2022-10-07 20:33:59.661  INFO 58140 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-07 20:33:59.683  INFO 58140 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-07 20:33:59.754  INFO 58140 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-07 20:33:59.804  INFO 58140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-07 20:33:59.887  INFO 58140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-07 20:33:59.900  INFO 58140 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-10-07 20:34:00.330  INFO 58140 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-07 20:34:00.335  INFO 58140 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-07 20:34:00.639  WARN 58140 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-07 20:34:00.780  WARN 58140 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 88c488ae-5e80-4b73-9be2-2976b2594694
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-10-07 20:34:00.875  INFO 58140 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@32984ae7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44688020, org.springframework.security.web.context.SecurityContextPersistenceFilter@568a7c12, org.springframework.security.web.header.HeaderWriterFilter@211bdf5c, org.springframework.web.filter.CorsFilter@2df246ab, org.springframework.security.web.authentication.logout.LogoutFilter@20c32c75, com.bank.credit.bankcredit.security.filters.JwtAuthorizationFilter@24f0ba3e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7092a366, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b402a39, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@54cf1335, org.springframework.security.web.session.SessionManagementFilter@40b13233, org.springframework.security.web.access.ExceptionTranslationFilter@302d8e16, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f27f5f8]
+2022-10-07 20:34:01.091 DEBUG 58140 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-10-07 20:34:01.168 DEBUG 58140 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 12 mappings in 'requestMappingHandlerMapping'
+2022-10-07 20:34:01.207 DEBUG 58140 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-10-07 20:34:01.217 DEBUG 58140 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-10-07 20:34:01.453  WARN 58140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-10-07 20:34:01.480  INFO 58140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-07 20:34:01.489  INFO 58140 --- [restartedMain] c.b.c.bankcredit.BankCreditApplication   : Started BankCreditApplication in 3.578 seconds (JVM running for 4.362)
+2022-10-07 20:37:04.871  INFO 58140 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-07 20:37:04.872  INFO 58140 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-07 20:37:04.873 DEBUG 58140 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-10-07 20:37:04.873 DEBUG 58140 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-10-07 20:37:04.873 DEBUG 58140 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-10-07 20:37:04.873 DEBUG 58140 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@160171c4
+2022-10-07 20:37:04.875 DEBUG 58140 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7cf25b38
+2022-10-07 20:37:04.876 DEBUG 58140 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-10-07 20:37:04.876  INFO 58140 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-10-07 20:37:27.008 DEBUG 58140 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/credits", parameters={}
+2022-10-07 20:37:27.015 DEBUG 58140 --- [http-nio-8081-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bank.credit.bankcredit.controller.CreditController#getCredits()
+2022-10-07 20:37:27.198 DEBUG 58140 --- [http-nio-8081-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-07 20:37:27.199 DEBUG 58140 --- [http-nio-8081-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Credit(creditNumber=tata, amount=1000.25, duration=15, client=Client(id=1, firstName=Larose, lastNa (truncated)...]
+2022-10-07 20:37:27.229 DEBUG 58140 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-07 20:43:01.807  INFO 58140 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-07 20:43:01.814  INFO 58140 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-07 20:43:01.825  INFO 58140 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-07 20:43:06.394  INFO 58164 --- [restartedMain] c.b.c.bankcredit.BankCreditApplication   : Starting BankCreditApplication using Java 11.0.14.1 on DESKTOP-E76Q78V with PID 58164 (C:\Users\lenovo yoga\Desktop\JAVA\JavaProjects\bank-credit\target\classes started by lenovo yoga in C:\Users\lenovo yoga\Desktop\JAVA\JavaProjects\bank-credit)
+2022-10-07 20:43:06.395  INFO 58164 --- [restartedMain] c.b.c.bankcredit.BankCreditApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-10-07 20:43:06.424  INFO 58164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-07 20:43:06.424  INFO 58164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-07 20:43:06.956  INFO 58164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-07 20:43:06.996  INFO 58164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+2022-10-07 20:43:07.586  INFO 58164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-07 20:43:07.586  INFO 58164 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-07 20:43:07.586  INFO 58164 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-07 20:43:07.644  INFO 58164 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-07 20:43:07.644  INFO 58164 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1220 ms
+2022-10-07 20:43:07.805  INFO 58164 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-07 20:43:07.835  INFO 58164 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-07 20:43:07.924  INFO 58164 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-07 20:43:07.984  INFO 58164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-07 20:43:08.082  INFO 58164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-07 20:43:08.098  INFO 58164 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-10-07 20:43:08.495  INFO 58164 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-07 20:43:08.504  INFO 58164 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-07 20:43:08.820  WARN 58164 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-07 20:43:08.948  WARN 58164 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b44f8990-d1d4-4ea3-9d98-6dae3917bb51
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-10-07 20:43:09.044  INFO 58164 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3ba456ab, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67d9840f, org.springframework.security.web.context.SecurityContextPersistenceFilter@13dbaa2e, org.springframework.security.web.header.HeaderWriterFilter@6140dbc2, org.springframework.web.filter.CorsFilter@1aac7c91, org.springframework.security.web.authentication.logout.LogoutFilter@7ff07a03, com.bank.credit.bankcredit.security.filters.JwtAuthorizationFilter@49877f9f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@59accf93, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@14822c14, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@500f690a, org.springframework.security.web.session.SessionManagementFilter@96dd63, org.springframework.security.web.access.ExceptionTranslationFilter@2f2d51a6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4ad2727]
+2022-10-07 20:43:09.264 DEBUG 58164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-10-07 20:43:09.314 DEBUG 58164 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 12 mappings in 'requestMappingHandlerMapping'
+2022-10-07 20:43:09.343 DEBUG 58164 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-10-07 20:43:09.350 DEBUG 58164 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-10-07 20:43:09.604  WARN 58164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-10-07 20:43:09.639  INFO 58164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-07 20:43:09.645  INFO 58164 --- [restartedMain] c.b.c.bankcredit.BankCreditApplication   : Started BankCreditApplication in 3.585 seconds (JVM running for 4.297)
+2022-10-07 20:44:05.110  INFO 58164 --- [http-nio-8081-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-07 20:44:05.113  INFO 58164 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-07 20:44:05.113 DEBUG 58164 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-10-07 20:44:05.114 DEBUG 58164 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-10-07 20:44:05.115 DEBUG 58164 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-10-07 20:44:05.116 DEBUG 58164 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@361a0a2a
+2022-10-07 20:44:05.116 DEBUG 58164 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@3b7e0ada
+2022-10-07 20:44:05.116 DEBUG 58164 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-10-07 20:44:05.116  INFO 58164 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-10-07 20:46:17.498 DEBUG 58164 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/credits", parameters={}
+2022-10-07 20:46:17.504 DEBUG 58164 --- [http-nio-8081-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bank.credit.bankcredit.controller.CreditController#createCredit(Credit)
+2022-10-07 20:46:17.625 DEBUG 58164 --- [http-nio-8081-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Credit(creditNumber=toto, amount=100450.25, duration=35, client=Client(id=2, firstName=SECK, lastNam (truncated)...]
+2022-10-07 20:46:17.843 ERROR 58164 --- [http-nio-8081-exec-6] c.b.c.bankcredit.config.LoggingAspect    : Exception in com.bank.credit.bankcredit.controller.CreditController.createCredit() with message = Requested Client with id = 2 does not exist
+2022-10-07 20:46:17.845 DEBUG 58164 --- [http-nio-8081-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.bank.credit.bankcredit.exception.APIExceptionHandler#handleEntityNotFoundException(EntityNotFoundException)
+2022-10-07 20:46:17.875 DEBUG 58164 --- [http-nio-8081-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-07 20:46:17.879 DEBUG 58164 --- [http-nio-8081-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIException(message=Requested Client with id = 2 does not exist, status=404 NOT_FOUND, timestamp=20 (truncated)...]
+2022-10-07 20:46:17.896  WARN 58164 --- [http-nio-8081-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [EntityNotFoundException(message=Requested Client with id = 2 does not exist)]
+2022-10-07 20:46:17.896 DEBUG 58164 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-10-07 20:47:39.004  INFO 58164 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-07 20:47:39.012  INFO 58164 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-10-07 20:47:39.024  INFO 58164 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-10-07 20:47:43.765  INFO 45204 --- [restartedMain] c.b.c.bankcredit.BankCreditApplication   : Starting BankCreditApplication using Java 11.0.14.1 on DESKTOP-E76Q78V with PID 45204 (C:\Users\lenovo yoga\Desktop\JAVA\JavaProjects\bank-credit\target\classes started by lenovo yoga in C:\Users\lenovo yoga\Desktop\JAVA\JavaProjects\bank-credit)
+2022-10-07 20:47:43.765  INFO 45204 --- [restartedMain] c.b.c.bankcredit.BankCreditApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-10-07 20:47:43.797  INFO 45204 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-07 20:47:43.797  INFO 45204 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-07 20:47:44.345  INFO 45204 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-07 20:47:44.384  INFO 45204 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
+2022-10-07 20:47:44.942  INFO 45204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-10-07 20:47:44.954  INFO 45204 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-07 20:47:44.954  INFO 45204 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-07 20:47:44.998  INFO 45204 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-07 20:47:44.998  INFO 45204 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1201 ms
+2022-10-07 20:47:45.145  INFO 45204 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-07 20:47:45.178  INFO 45204 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-10-07 20:47:45.255  INFO 45204 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-07 20:47:45.315  INFO 45204 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-07 20:47:45.408  INFO 45204 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-07 20:47:45.415  INFO 45204 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-10-07 20:47:45.847  INFO 45204 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-07 20:47:45.855  INFO 45204 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-07 20:47:46.176  WARN 45204 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-07 20:47:46.315  WARN 45204 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: febd85ad-2b33-42b7-a2c6-06abab789926
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-10-07 20:47:46.415  INFO 45204 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1b10c5fa, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@365da52f, org.springframework.security.web.context.SecurityContextPersistenceFilter@26ca7786, org.springframework.security.web.header.HeaderWriterFilter@d30e4f1, org.springframework.web.filter.CorsFilter@4efa7bd0, org.springframework.security.web.authentication.logout.LogoutFilter@7a5bd4a8, com.bank.credit.bankcredit.security.filters.JwtAuthorizationFilter@23ea6ef1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@59ea3942, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ff78fbf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e484063, org.springframework.security.web.session.SessionManagementFilter@5f2f8f15, org.springframework.security.web.access.ExceptionTranslationFilter@2551dc71, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@38bbc195]
+2022-10-07 20:47:46.632 DEBUG 45204 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-10-07 20:47:46.704 DEBUG 45204 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 12 mappings in 'requestMappingHandlerMapping'
+2022-10-07 20:47:46.735 DEBUG 45204 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-10-07 20:47:46.745 DEBUG 45204 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-10-07 20:47:47.045  WARN 45204 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-10-07 20:47:47.073  INFO 45204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-10-07 20:47:47.078  INFO 45204 --- [restartedMain] c.b.c.bankcredit.BankCreditApplication   : Started BankCreditApplication in 3.631 seconds (JVM running for 4.37)
+2022-10-07 20:48:34.980  INFO 45204 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-07 20:48:34.983  INFO 45204 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-07 20:48:34.984 DEBUG 45204 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-10-07 20:48:34.985 DEBUG 45204 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-10-07 20:48:34.985 DEBUG 45204 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-10-07 20:48:34.985 DEBUG 45204 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@17c69416
+2022-10-07 20:48:34.985 DEBUG 45204 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@3eace425
+2022-10-07 20:48:34.985 DEBUG 45204 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-10-07 20:48:34.985  INFO 45204 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-07 20:48:35.114 DEBUG 45204 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/credits", parameters={}
+2022-10-07 20:48:35.116 DEBUG 45204 --- [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bank.credit.bankcredit.controller.CreditController#getCredits()
+2022-10-07 20:48:35.434 DEBUG 45204 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-07 20:48:35.434 DEBUG 45204 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Credit(creditNumber=tata, amount=1000.25, duration=15, client=Client(id=1, firstName=Larose, lastNa (truncated)...]
+2022-10-07 20:48:35.516 DEBUG 45204 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-07 20:48:57.825 DEBUG 45204 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/credits", parameters={}
+2022-10-07 20:48:57.826 DEBUG 45204 --- [http-nio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bank.credit.bankcredit.controller.CreditController#createCredit(Credit)
+2022-10-07 20:48:57.879 DEBUG 45204 --- [http-nio-8081-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Credit(creditNumber=toto, amount=100450.25, duration=35, client=Client(id=2, firstName=SECK, lastNam (truncated)...]
+2022-10-07 20:48:58.015 ERROR 45204 --- [http-nio-8081-exec-4] c.b.c.bankcredit.config.LoggingAspect    : Exception in com.bank.credit.bankcredit.controller.CreditController.createCredit() with message = Requested Client with id = 2 does not exist
+2022-10-07 20:48:58.025 DEBUG 45204 --- [http-nio-8081-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.bank.credit.bankcredit.exception.APIExceptionHandler#handleEntityNotFoundException(EntityNotFoundException)
+2022-10-07 20:48:58.036 DEBUG 45204 --- [http-nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-07 20:48:58.036 DEBUG 45204 --- [http-nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [APIException(message=Requested Client with id = 2 does not exist, status=404 NOT_FOUND, timestamp=20 (truncated)...]
+2022-10-07 20:48:58.036  WARN 45204 --- [http-nio-8081-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [EntityNotFoundException(message=Requested Client with id = 2 does not exist)]
+2022-10-07 20:48:58.036 DEBUG 45204 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-10-07 20:51:19.214 DEBUG 45204 --- [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/credits", parameters={}
+2022-10-07 20:51:19.214 DEBUG 45204 --- [http-nio-8081-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bank.credit.bankcredit.controller.CreditController#getCredits()
+2022-10-07 20:51:19.227 DEBUG 45204 --- [http-nio-8081-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-07 20:51:19.227 DEBUG 45204 --- [http-nio-8081-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [[Credit(creditNumber=tata, amount=1000.25, duration=15, client=Client(id=1, firstName=Larose, lastNa (truncated)...]
+2022-10-07 20:51:19.235 DEBUG 45204 --- [http-nio-8081-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-10-07 20:51:44.760 DEBUG 45204 --- [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/credits", parameters={}
+2022-10-07 20:51:44.760 DEBUG 45204 --- [http-nio-8081-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bank.credit.bankcredit.controller.CreditController#createCredit(Credit)
+2022-10-07 20:51:44.765 DEBUG 45204 --- [http-nio-8081-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Credit(creditNumber=toto, amount=100450.25, duration=35, client=Client(id=1, firstName=SECK, lastNam (truncated)...]
+2022-10-07 20:51:44.894 DEBUG 45204 --- [http-nio-8081-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-10-07 20:51:44.894 DEBUG 45204 --- [http-nio-8081-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Credit(creditNumber=toto, amount=100450.25, duration=35, client=Client(id=1, firstName=Larose, lastN (truncated)...]
+2022-10-07 20:51:44.894 DEBUG 45204 --- [http-nio-8081-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
