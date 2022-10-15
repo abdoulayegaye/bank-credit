@@ -2,6 +2,9 @@ server:
   port: 8081
 
 spring:
+  cloud:
+    discovery:
+      enabled: true
   datasource:
     password:
     url: jdbc:mysql://localhost:3306/bank_credit_db?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
@@ -42,3 +45,12 @@ logging:
     org:
       springframework:
         web: DEBUG
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+#http://localhost:8889/SECURITY-SERVICE/users
+

@@ -1,6 +1,7 @@
 package com.bank.credit.bankcredit.controller;
 
 import com.bank.credit.bankcredit.domain.Client;
+import com.bank.credit.bankcredit.service.AppUserService;
 import com.bank.credit.bankcredit.service.ClientService;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -18,6 +19,8 @@ public class ClientController {
 
     ClientService clientService;
 
+    AppUserService appUserService;
+
     @GetMapping
     public Page<Client> getClients(Pageable pageable) {
         return clientService.getClients(pageable);
@@ -32,6 +35,7 @@ public class ClientController {
     @ResponseStatus(code = HttpStatus.CREATED)
     //@IsAdmin
     public Client createClient(@Valid @RequestBody Client client) {
+        System.out.println("Appel du micro-service BANK-SECURITY : " + appUserService.get(1).getEmail());
         return clientService.createClient(client);
     }
 
